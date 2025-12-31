@@ -1,34 +1,50 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Machine Learning | Data Analytics # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+social: true # includes social icons at the bottom of the page
+---
+
+<!-- ---
+---
+layout: about
+title: About
+permalink: /
+subtitle: Machine Learning | Data Analytics # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+--->
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a data analytics professional with a Master of Engineering degree in Electrical Engineering and Computer Sciences from UC Berkeley (2022). I have worked as a data analytics consultant for close to three years, where I focused on designing and defining data models, performing data validation using SQL, and translating complex business requirements into well-structured technical solutions. My work has also included building and experimenting with time series models to identify patterns and support forecasting efforts.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Driven by curiosity for solving complex data challenges, I am now expanding my focus toward machine learning–powered applications. I am exploring predictive modeling, natural language processing, LLMs, agentic AI, and automated decision-making systems, with the goal of building intelligent, scalable solutions. By combining a strong foundation in analytics with modern ML techniques, I aspire to create thoughtfully engineered data-driven solutions that drive measurable business value and scale for the future.
+
+<h3 style="font-size:1.5rem;">Tech Skills</h3>
+- **Languages:** Python (numpy, pandas, scikit-learn, pytorch), SQL
+- **Core Competencies**: Machine Learning, Deep Learning, Natural Language Processing, Data Modeling
+- **Tools:** Git, MS Excel
+
+<h3 style="font-size:1.5rem;">Topics I’m Exploring</h3>
+
+- ML System Design
+- Model evaluation and monitoring

@@ -1,3 +1,4 @@
+<!-- ---
 ---
 layout: page
 title: project 3 with very long name
@@ -7,6 +8,7 @@ redirect: https://unsplash.com
 importance: 3
 category: work
 ---
+--- -->
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
