@@ -7,6 +7,12 @@ nav: true
 nav_order: 4
 ---
 
+<h2 style="font-size:2.0rem;">Certifications</h2>
+
+- AWS Certified AI Practitioner (<a href="https://www.credly.com/badges/091374d5-d0da-479a-9a7a-b3472d3ca7b3/public_url" target="_blank"> Digital Badge </a>)
+
+---
+
 <h2 style="font-size:2.0rem;">Courses</h2>
 
 - <a href="https://www.coursera.org/specializations/deep-learning" target="_blank"> Deep Learning Specialization (Coursera) </a> (<a href="https://coursera.org/share/7bc13b43f4ec077e8ee5f246f4aec709" target="_blank"> Certificate </a>)
