@@ -30,7 +30,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/learning/";
           },
-        },{id: "projects-binary-classification-diabetes-risk",
+        },{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
+          title: 'Multi-Class Chest X-Ray Disease Classification Using Transfer Learning',
+          description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/chest_x-ray_disease_detection/";
+            },},{id: "projects-binary-classification-diabetes-risk",
           title: 'Binary Classification - Diabetes Risk',
           description: "Binary Classification - Diabetes Risk",
           section: "Projects",handler: () => {
