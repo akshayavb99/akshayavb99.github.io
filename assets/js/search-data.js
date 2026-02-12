@@ -45,6 +45,11 @@ ninja.data = [{
           description: "EDA and Clustering for Songs Dataset on Kaggle",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eda_clustering_songs/";
+            },},{id: "projects-fully-local-retreival-augmented-generation-rag-knowledge-assistant",
+          title: 'Fully Local Retreival Augmented Generation (RAG) Knowledge Assistant',
+          description: "A CLI implementation of a fully local RAG enhanced knowledge assistant, built with Ollama running on Docker and Chroma DB vector store",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fully-local-rag-with-cli/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
