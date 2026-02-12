@@ -40,9 +40,11 @@ I am a data analytics professional with a Master of Engineering degree in Electr
 Driven by curiosity for solving complex data challenges, I am now expanding my focus toward machine learning–powered applications. I am exploring predictive modeling, natural language processing, LLMs, agentic AI, and automated decision-making systems, with the goal of building intelligent, scalable solutions. By combining a strong foundation in analytics with modern ML techniques, I aspire to create thoughtfully engineered data-driven solutions that drive measurable business value and scale for the future.
 
 <h3 style="font-size:1.5rem;">Tech Skills</h3>
-- **Languages:** Python (numpy, pandas, scikit-learn, pytorch), SQL
-- **Core Competencies**: Machine Learning, Deep Learning, Natural Language Processing, Data Modeling
-- **Tools:** Git, MS Excel
+- **Languages:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PyTorch), SQL
+- **Machine Learning & Deep Learning:** Regression, Classification, Ensemble Methods, Clustering, Model Evaluation, EDA, Neural Networks, CNNs, foundational understanding of Transformers & LLM architectures
+- **Applied AI:** Retrieval Augmented Generation (RAG), Embeddings, Vector Similarity Search, Prompt Engineering
+- **Data Engineering:** Dimensional Modeling, Data Warehousing Concepts
+- **Tools & Visualization:** Docker, Ollama, Git, Jupyter Notebooks
 
 <h3 style="font-size:1.5rem;">Topics I’m Exploring</h3>
 

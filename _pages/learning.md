@@ -10,6 +10,7 @@ nav_order: 4
 <h2 style="font-size:2.0rem;">Certifications</h2>
 
 - AWS Certified AI Practitioner (<a href="https://www.credly.com/badges/091374d5-d0da-479a-9a7a-b3472d3ca7b3/public_url" target="_blank"> Digital Badge </a>)
+- AWS Certified Machine Learning Engineer Associate (<a href="https://www.credly.com/badges/dccf3e38-4819-4d47-b589-7c8bfe683964/public_url" target="_blank"> Digital Badge </a>)
 
 ---
 
