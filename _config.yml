@@ -48,10 +48,10 @@ back_to_top: true # set to false to disable the back to top button
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: false
+search_enabled: true
 socials_in_search: false
-posts_in_search: false
-bib_search: false
+posts_in_search: true
+bib_search: true
 
 # Dimensions
 max_width: 930px
@@ -151,6 +151,12 @@ collections:
       layout: post
     output: false
   posts:
+    output: true
+  publications:
+    output: false
+  repositories:
+    output: false
+  teaching:
     output: false
   projects:
     output: true
@@ -262,13 +268,13 @@ terser:
 
 jekyll-archives:
   posts:
-    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [year, tag, category] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
       year: "/blog/:year/"
       tags: "/blog/:type/:name/"
       categories: "/blog/:type/:name/"
   books:
-    enabled: [] # enables year, tag and category archives (remove if you need to disable one of them).
+    enabled: [year, tag, category] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog

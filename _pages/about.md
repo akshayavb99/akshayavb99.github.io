@@ -4,6 +4,10 @@ title: About
 permalink: /
 subtitle: Machine Learning | Data Analytics # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 social: true # includes social icons at the bottom of the page
+profile:
+  align: right
+  image: prof_pic.jpg
+  image_circular: true # crops the image to make it circular
 ---
 
 <!-- ---
