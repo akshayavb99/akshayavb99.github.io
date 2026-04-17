@@ -1,0 +1,25 @@
+- title: "AWS Certified AI Practitioner"
+  type: certification
+  organization: "Amazon Web Services"
+  date: 2026-01-17
+  description: >
+    Built a solid foundation in AI and machine learning concepts on AWS.
+    Learned how core AI services work and when to use them.
+    Gained hands-on understanding of generative AI, model deployment, and responsible AI practices.
+  tags: ["AWS", "Cloud", "Machine Learning", "Artificial Intelligence"]
+  certificate_url: "https://www.credly.com/badges/903912dd-c5ee-4a0c-8b66-56a2d07a93e8/public_url"
+  notes_url:
+  latest_update_text: "Recently earned"
+  
+- title: "AWS Certified Machine Learning Engineer – Associate"
+  type: certification
+  organization: "Amazon Web Services"
+  date: 2026-02-07
+  description: >
+    Learned how to prepare, clean, and analyze data for machine learning workflows.
+    Worked with model training, evaluation, and optimization techniques.
+    Explored deploying ML models on AWS and monitoring their performance in production.
+  tags: ["AWS", "Cloud", "Machine Learning", "Artificial Intelligence"]
+  certificate_url: "https://www.credly.com/badges/dccf3e38-4819-4d47-b589-7c8bfe683964/public_url"
+  notes_url:
+  latest_update_text: "Recently earned this and got hands-on practice with building and deploying ML models on AWS"

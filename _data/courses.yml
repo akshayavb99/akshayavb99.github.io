@@ -1,0 +1,35 @@
+- title: "DeepLearning.AI Deep Learning Specialization"
+  type: course
+  organization: "Coursera"
+  date: 2025-12-30
+  description: >
+    Completed the following 5 courses for the specialization on Coursera: 
+    - Neural Networks and Deep Learning
+    - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+    - Structuring Machine Learning Projects
+    - Convolutional Neural Networks
+    - Sequence Models
+  status: Completed
+  tags: ["Machine Learning", "Deep Learning"]
+  certificate_url: "https://coursera.org/share/7bc13b43f4ec077e8ee5f246f4aec709"
+  notes_url:
+  latest_update_text: >
+    Completed the following 5 courses for the specialization on Coursera: 
+    - Neural Networks and Deep Learning
+    - Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+    - Structuring Machine Learning Projects
+    - Convolutional Neural Networks
+    - Sequence Models
+
+- title: "Deep Learning and Natural Language Processing"
+  type: course
+  organization: "HU Berlin"
+  date: 2026-03-09
+  description: >
+    Completed the course remotely as a Guest Auditor from October 2025 to February 2026
+  status: Completed
+  tags: ["Machine Learning", "Deep Learning", "Natural Language Processing", "LLMs"]
+  certificate_url:
+  notes_url:
+  latest_update_text: >
+    Completed the course remotely as a Guest Auditor from October 2025 to February 2026

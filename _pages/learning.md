@@ -1,28 +1,136 @@
 ---
 layout: page
-permalink: /learning/
 title: Learning
-description: A page to show what I am currently exploring as self-study. This page is still in progress!
+permalink: /learning/
+description: >
+  A page to show what I have been studying. 
+  This page is still being built!
 nav: true
 nav_order: 4
+horizontal: false
 ---
 
-<h2 style="font-size:2.0rem;">Certifications</h2>
+## Recent Learning Activity
 
-- AWS Certified AI Practitioner (<a href="https://www.credly.com/badges/091374d5-d0da-479a-9a7a-b3472d3ca7b3/public_url" target="_blank"> Digital Badge </a>)
-- AWS Certified Machine Learning Engineer Associate (<a href="https://www.credly.com/badges/dccf3e38-4819-4d47-b589-7c8bfe683964/public_url" target="_blank"> Digital Badge </a>)
+{% comment %}
+  Build array of only existing data sources
+{% endcomment %}
+{% assign all_items = "" | split: "" %}
+
+{% if site.data.tech_books %}
+  {% assign all_items = all_items | concat: site.data.tech_books %}
+{% endif %}
+
+{% if site.data.courses %}
+  {% assign all_items = all_items | concat: site.data.courses %}
+{% endif %}
+
+{% if site.data.certifications %}
+  {% assign all_items = all_items | concat: site.data.certifications %}
+{% endif %}
+
+{% assign sorted_items = all_items | sort: "date" | reverse %}
+{% assign latest_three = sorted_items | slice: 0,3 %}
+
+<ul class="card-text font-weight-light list-group list-group-flush">
+
+  {% for item in latest_three %}
+  {% if item.title %}
+
+  <li class="list-group-item">
+    <div class="row">
+
+      <!-- Left content -->
+      <div class="col px-0">
+
+        <!-- Title with type -->
+        <h3 class="title font-weight-bold"
+            style="font-size: 1rem; margin-bottom: 0.25rem;">
+          {{ item.type | capitalize }} — {{ item.title }}
+        </h3>
+
+        <!-- Optional update text -->
+        {% if item.latest_update_text %}
+          <p class="text-muted"
+             style="font-size: 0.9rem; margin-bottom: 0.4rem;">
+            <small>{{ item.latest_update_text }}</small>
+          </p>
+        {% endif %}
+
+        <!-- Links -->
+        <div style="font-size: 0.9rem; margin-bottom: 0.3rem;">
+
+          {% if item.book_url %}
+            <a href="{{ item.book_url }}" target="_blank" style="margin-right: 10px;">Book</a>
+          {% endif %}
+
+          {% if item.course_url %}
+            <a href="{{ item.course_url }}" target="_blank" style="margin-right: 10px;">Course</a>
+          {% endif %}
+
+          {% if item.paper_url %}
+            <a href="{{ item.paper_url }}" target="_blank" style="margin-right: 10px;">Paper</a>
+          {% endif %}
+
+          {% if item.article_url %}
+            <a href="{{ item.article_url }}" target="_blank" style="margin-right: 10px;">Article</a>
+          {% endif %}
+
+          {% if item.certificate_url %}
+            <a href="{{ item.certificate_url }}" target="_blank" style="margin-right: 10px;">View Certificate</a>
+          {% endif %}
+
+          {% if item.notes_url %}
+            <a href="{{ item.notes_url }}" target="_blank">Read Notes</a>
+          {% endif %}
+
+        </div>
+
+      </div>
+
+      <!-- Right date -->
+      <div class="col-auto text-right px-0">
+        <span class="text-muted" style="font-size: 0.85rem;">
+          {{ item.date | date: "%b %d, %Y" }}
+        </span>
+      </div>
+
+    </div>
+  </li>
+
+  {% endif %}
+  {% endfor %}
+
+</ul>
 
 ---
+<br>
 
-<h2 style="font-size:2.0rem;">Courses</h2>
-
-- <a href="https://www.coursera.org/specializations/deep-learning" target="_blank"> Deep Learning Specialization (Coursera) </a> (<a href="https://coursera.org/share/7bc13b43f4ec077e8ee5f246f4aec709" target="_blank"> Certificate </a>)
+## Groups
 
 
----
+<div class="projects">
 
-<h2 style="font-size:2.0rem;">Books</h2>
+  {% if page.horizontal %}
 
-- *Designing Machine Learning Systems* — Chip Huyen
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2">
+        {% assign sorted_learning = site.learning | sort: "importance" %}
+        {% for project in sorted_learning %}
+          {% include projects_horizontal.liquid %}
+        {% endfor %}
+      </div>
+    </div>
 
----
+  {% else %}
+
+    {% assign sorted_learning = site.learning | sort: "importance" %}
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for project in sorted_learning %}
+        {% include projects.liquid %}
+      {% endfor %}
+    </div>
+
+  {% endif %}
+
+</div>
