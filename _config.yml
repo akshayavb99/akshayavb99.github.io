@@ -160,6 +160,9 @@ collections:
     output: false
   projects:
     output: true
+  learning:
+    output: true
+
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
