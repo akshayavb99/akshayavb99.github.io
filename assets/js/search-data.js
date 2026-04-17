@@ -25,12 +25,27 @@ ninja.data = [{
           },
         },{id: "nav-learning",
           title: "Learning",
-          description: "A page to show what I am currently exploring as self-study. This page is still in progress!",
+          description: "A page to show what I have been studying.  This page is still being built!",
           section: "Navigation",
           handler: () => {
             window.location.href = "/learning/";
           },
-        },{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
+        },{id: "learning-certifications",
+          title: 'Certifications',
+          description: "Cloud and machine learning certifications from AWS and other leading providers",
+          section: "Learning",handler: () => {
+              window.location.href = "/learning/certifications/";
+            },},{id: "learning-courses",
+          title: 'Courses',
+          description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
+          section: "Learning",handler: () => {
+              window.location.href = "/learning/courses/";
+            },},{id: "learning-books",
+          title: 'Books',
+          description: "Selected list of technical books and what I learned from them",
+          section: "Learning",handler: () => {
+              window.location.href = "/learning/tech_books/";
+            },},{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
           title: 'Multi-Class Chest X-Ray Disease Classification Using Transfer Learning',
           description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model",
           section: "Projects",handler: () => {
