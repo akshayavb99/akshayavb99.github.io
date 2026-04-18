@@ -1,0 +1,14 @@
+/*******************************************************************************
+ * Custom overrides — do not modify other SCSS files.
+ ******************************************************************************/
+
+// Bootstrap 4 hard-codes background-color: #fff on .list-group-item with no
+// dark-mode variant. Override here so the Recent Learning section respects the
+// active theme's CSS custom properties.
+html[data-theme="dark"] {
+  .list-group-item {
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+    border-color: var(--global-divider-color);
+  }
+}

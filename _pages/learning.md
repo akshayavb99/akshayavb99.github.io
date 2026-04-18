@@ -10,6 +10,8 @@ nav_order: 4
 horizontal: false
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+
 ## Recent Learning Activity
 
 {% comment %}
