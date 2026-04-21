@@ -145,11 +145,11 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
-    output: false
+    output: true
   posts:
     output: true
   publications:
@@ -205,11 +205,9 @@ exclude:
   - vendor
   - _posts/
   - _books/
-  - _news/
   - _pages/blog.md
   - _pages/books.md
   - _pages/dropdown.md
-  - _pages/news.md
   - _pages/profiles.md
   - _pages/publications.md
   - _pages/repositories.md
