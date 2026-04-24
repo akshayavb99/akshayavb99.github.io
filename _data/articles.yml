@@ -2,9 +2,18 @@
   type: article
   author: Dr. Satish Krishnan
   date: 2026-04-24
-  published_date: 2025-05-01
   description: >
     Why: I found this to be a very helpful guide in exploring different methods of reading scientific literature. 
+  article_url: https://iimk.ac.in/uploads/Reading_Research_Papers.htm
+  notes_url:
+  tags: ["Learning", "Reading"]
+
+- title: "How to Read a Paper"
+  type: article
+  author: S. Keshav
+  date: 2026-04-24
+  description: >
+    Why: This is the original paper from which the three-pass method of reading research papers was defined. 
   article_url: https://iimk.ac.in/uploads/Reading_Research_Papers.htm
   notes_url:
   tags: ["Learning", "Reading"]
