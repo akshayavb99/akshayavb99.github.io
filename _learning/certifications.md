@@ -2,9 +2,7 @@
 layout: page
 title: Certifications
 description: Cloud and machine learning certifications from AWS and other leading providers
-img: 
 importance: 1
-category: 
 toc:
   sidebar: left
 ---

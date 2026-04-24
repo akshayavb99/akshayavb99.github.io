@@ -31,6 +31,10 @@ horizontal: false
   {% assign all_items = all_items | concat: site.data.certifications %}
 {% endif %}
 
+{% if site.data.articles %}
+  {% assign all_items = all_items | concat: site.data.articles %}
+{% endif %}
+
 {% assign sorted_items = all_items | sort: "date" | reverse %}
 {% assign latest_three = sorted_items | slice: 0,3 %}
 
@@ -63,19 +67,19 @@ horizontal: false
         <div style="font-size: 0.9rem; margin-bottom: 0.3rem;">
 
           {% if item.book_url %}
-            <a href="{{ item.book_url }}" target="_blank" style="margin-right: 10px;">Book</a>
+            <a href="{{ item.book_url }}" target="_blank" style="margin-right: 10px;">Book Link</a>
           {% endif %}
 
           {% if item.course_url %}
-            <a href="{{ item.course_url }}" target="_blank" style="margin-right: 10px;">Course</a>
+            <a href="{{ item.course_url }}" target="_blank" style="margin-right: 10px;">View Course</a>
           {% endif %}
 
           {% if item.paper_url %}
-            <a href="{{ item.paper_url }}" target="_blank" style="margin-right: 10px;">Paper</a>
+            <a href="{{ item.paper_url }}" target="_blank" style="margin-right: 10px;">Read Paper</a>
           {% endif %}
 
           {% if item.article_url %}
-            <a href="{{ item.article_url }}" target="_blank" style="margin-right: 10px;">Article</a>
+            <a href="{{ item.article_url }}" target="_blank" style="margin-right: 10px;">Read Article</a>
           {% endif %}
 
           {% if item.certificate_url %}
