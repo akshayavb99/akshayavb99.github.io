@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/learning/";
           },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "learning-certifications",
           title: 'Certifications',
           description: "Cloud and machine learning certifications from AWS and other leading providers",
@@ -45,6 +52,11 @@ ninja.data = [{
           description: "Selected list of technical books and what I learned from them",
           section: "Learning",handler: () => {
               window.location.href = "/learning/tech_books/";
+            },},{id: "news-i-am-participating-in-the-stanford-code-in-place-2026-as-a-volunteer-section-leader",
+          title: 'I am participating in the Stanford Code in Place 2026 as a volunteer...',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026-04-21-cip6-sl-participation/";
             },},{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
           title: 'Multi-Class Chest X-Ray Disease Classification Using Transfer Learning',
           description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model",
