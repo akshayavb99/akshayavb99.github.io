@@ -37,7 +37,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "learning-certifications",
+        },{id: "learning-articles",
+          title: 'Articles',
+          description: "A selected list of blogs and articles I found interesting and informative",
+          section: "Learning",handler: () => {
+              window.location.href = "/learning/articles/";
+            },},{id: "learning-certifications",
           title: 'Certifications',
           description: "Cloud and machine learning certifications from AWS and other leading providers",
           section: "Learning",handler: () => {
