@@ -64,17 +64,22 @@ ninja.data = [{
               window.location.href = "/news/2026-04-21-cip6-sl-participation/";
             },},{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
           title: 'Multi-Class Chest X-Ray Disease Classification Using Transfer Learning',
-          description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model",
+          description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model (Kaggle)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/chest_x-ray_disease_detection/";
+            },},{id: "projects-coding-challenges-core-tools-and-systems-implementations",
+          title: 'Coding Challenges - Core tools and Systems implementations',
+          description: "A collection of my implementations for the Coding Challenges series by John Crickett, where I build real-world tools and systems such as Unix utilities with programming languages like Python",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/coding-challenges/";
             },},{id: "projects-binary-classification-diabetes-risk",
           title: 'Binary Classification - Diabetes Risk',
-          description: "Binary Classification - Diabetes Risk",
+          description: "Binary Classification - Diabetes Risk (Kaggle)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/diabetes_risk_binary_classification/";
             },},{id: "projects-eda-and-clustering-analysis-on-songs",
           title: 'EDA and Clustering Analysis on Songs',
-          description: "EDA and Clustering for Songs Dataset on Kaggle",
+          description: "EDA and Clustering for Songs Dataset (Kaggle)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/eda_clustering_songs/";
             },},{id: "projects-fully-local-retreival-augmented-generation-rag-knowledge-assistant",
