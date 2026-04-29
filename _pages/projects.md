@@ -5,8 +5,10 @@ permalink: /projects/
 description: A growing collection of projects.
 nav: true
 nav_order: 2
-display_categories: # [work, fun]
-horizontal: false
+display_categories: ["Generative AI", "Deep Learning", "Software Engineering", "Machine Learning"]
+horizontal: true
+toc:
+  sidebar: left
 ---
 
 <!-- pages/projects.md -->

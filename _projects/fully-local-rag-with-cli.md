@@ -5,7 +5,7 @@ description: A CLI implementation of a fully local RAG enhanced knowledge assist
 img: 
 redirect: https://github.com/akshayavb99/offline-rag-cli
 importance: 1
-category: 
+category: "Generative AI"
 ---
 
 A CLI implementation of a fully local RAG enhanced knowledge assistant, built with Ollama running on Docker and Chroma DB vector store
