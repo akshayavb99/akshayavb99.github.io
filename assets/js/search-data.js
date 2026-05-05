@@ -37,7 +37,25 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/news/";
           },
-        },{id: "learning-articles",
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "post-coding-challenges-1-rebuilding-my-own-wc-tool-with-python",
+        
+          title: 'Coding Challenges 1 — Rebuilding my own wc tool with Python <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "(Medium Article) - Rebuilding my own wc tool with Python I recently found the Coding Challenges by John Crickett, a great series of coding challenges to understand the internal functionalities of the popular tools and concepts in software engineering",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@akshayavb99/coding-challenges-1-rebuilding-my-own-wc-tool-with-python-120998981e1d", "_blank");
+          
+        },
+      },{id: "learning-articles",
           title: 'Articles',
           description: "A selected list of blogs and articles I found interesting and informative",
           section: "Learning",handler: () => {
