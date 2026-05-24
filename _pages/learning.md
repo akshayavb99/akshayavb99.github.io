@@ -35,6 +35,10 @@ horizontal: false
   {% assign all_items = all_items | concat: site.data.articles %}
 {% endif %}
 
+{% if site.data.papers %}
+  {% assign all_items = all_items | concat: site.data.papers %}
+{% endif %}
+
 {% assign sorted_items = all_items | sort: "date" | reverse %}
 {% assign latest_three = sorted_items | slice: 0,3 %}
 

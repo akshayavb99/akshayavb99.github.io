@@ -1,0 +1,16 @@
+- title: "Reasoning Models Struggle to Control Chain of Thought"
+  type: research paper
+  author:
+    - Chen Yueh-Han
+    - Robert McCarthy
+    - Bruce W. Lee
+    - He He
+    - Ian Kivlichan
+    - Bowen Baker
+    - Micah Carroll
+    - Tomek Korbak
+  date: 2026-05-24
+  description:
+  paper_url: https://arxiv.org/abs/2603.05706
+  notes_url: https://akshayavb99.github.io/learning-notes/paper-summaries/reasoning-models-struggle-to-control-CoT/
+  tags: ["chain-of-thought", "reasoning-models", "artificial-intelligence", "large-language-models"]

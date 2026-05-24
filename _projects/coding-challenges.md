@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Coding Challenges - Core tools and Systems implementations
+title: Coding Challenges - Core Tools and Systems Implementations
 description: A collection of my implementations for the Coding Challenges series by John Crickett, where I build real-world tools and systems such as Unix utilities with programming languages like Python
 img:
 importance: 1
@@ -35,3 +35,19 @@ A reimplementation of the Unix `wc` (word count) utility in Python that processe
 
 * Supports counting lines, words, and characters
 * Handles multiple input sources (files and standard input)
+
+### 2. Write your own Compression Tool
+
+Implementation of file compression tool using the Huffman Coding Algorithm.
+
+[GitHub link to my implementation](https://github.com/akshayavb99/coding-challenges-solutions/tree/main/compression-tool) 
+
+**Key Concepts:**
+
+* Built with Python
+* File compression by reading and writing files in binary mode
+* Command-line interface design
+
+**Highlights:**
+
+* Supports a wide variety of characters due to binary reading mode
