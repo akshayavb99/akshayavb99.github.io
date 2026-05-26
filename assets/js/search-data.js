@@ -44,7 +44,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-coding-challenges-1-rebuilding-the-wc-tool-with-python",
+        },{id: "post-coding-challenges-2-write-your-own-compression-tool",
+        
+          title: 'Coding Challenges 2 — Write your own Compression Tool <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        
+        description: "(Medium Article) - Coding Challenge 2 from the series by John Crickett, where I wrote my own file compression tool using Huffman Coding algorithm",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://akshayavb99.medium.com/coding-challenges-2-build-your-own-compression-tool-8341540431bf?source=friends_link&sk=723d8cc0c66cbdf8ed8ea5ff921a732d", "_blank");
+          
+        },
+      },{id: "post-coding-challenges-1-rebuilding-the-wc-tool-with-python",
         
           title: 'Coding Challenges 1 — Rebuilding the wc tool with Python <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
@@ -70,6 +81,11 @@ ninja.data = [{
           description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
           section: "Learning",handler: () => {
               window.location.href = "/learning/courses/";
+            },},{id: "learning-papers",
+          title: 'Papers',
+          description: "A selected list of research papers I found interesting and informative",
+          section: "Learning",handler: () => {
+              window.location.href = "/learning/papers/";
             },},{id: "learning-books",
           title: 'Books',
           description: "Selected list of technical books and what I learned from them",
@@ -86,7 +102,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/chest_x-ray_disease_detection/";
             },},{id: "projects-coding-challenges-core-tools-and-systems-implementations",
-          title: 'Coding Challenges - Core tools and Systems implementations',
+          title: 'Coding Challenges - Core Tools and Systems Implementations',
           description: "A collection of my implementations for the Coding Challenges series by John Crickett, where I build real-world tools and systems such as Unix utilities with programming languages like Python",
           section: "Projects",handler: () => {
               window.location.href = "/projects/coding-challenges/";
