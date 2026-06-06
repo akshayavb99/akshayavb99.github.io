@@ -44,7 +44,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "post-coding-challenges-2-write-your-own-compression-tool",
+        },{id: "post-between-curiosity-and-consistency-the-first-100-steps-toward-10-000-problems",
+        
+          title: "Between Curiosity and Consistency: The First 100 Steps Toward 10,000 Problems",
+        
+        description: "Taking inspiration from a graduate student and a fictional archer to start my own journey of solving 10,000 problems in Computer Science",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/10000-problems-season-1/";
+          
+        },
+      },{id: "post-dashboard-of-the-first-100-problems",
+        
+          title: "Dashboard of the First 100 Problems",
+        
+        description: "Progress tracker and index for the first 100 problems in my 10,000 Problems journey",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-06-01-100-problem-index";
+          
+        },
+      },{id: "post-coding-challenges-2-write-your-own-compression-tool",
         
           title: 'Coding Challenges 2 — Write your own Compression Tool <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
