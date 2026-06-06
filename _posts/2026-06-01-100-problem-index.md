@@ -32,6 +32,9 @@ permalink: /blog/2026/2026-06-01-100-problem-index
   - [100 Problems](#100-problems)
 - [Problems List](#problems-list)
   - [Problem 1: Leetcode 74 - Search a 2D Matrix](#problem-1-leetcode-74---search-a-2d-matrix)
+  - [Problem 2: Leetcode 875 - Koko Eating Bananas](#problem-2-leetcode-875---koko-eating-bananas)
+  - [Problem 3: Leetcode 981 - Time Based Key-Value Store](#problem-3-leetcode-981---time-based-key-value-store)
+  - [Problem 4: Implement Mean Squared Error (MSE) from scratch](#problem-4-implement-mean-squared-error-mse-from-scratch)
 
 ## Milestones and Retrospectives
 
@@ -60,15 +63,45 @@ _To be completed_
 
 ### Problem 1: Leetcode 74 - Search a 2D Matrix
 
-_June 01, 2026_
+<details markdown="1">
+<summary markdown="span">View Details</summary>
+
+**Area:** Data Structures and Algorithms
+
+[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/search-2d-matrix/)
+
+</details>
+
+### Problem 2: Leetcode 875 - Koko Eating Bananas
 
 <details markdown="1">
 <summary markdown="span">View Details</summary>
 
 **Area:** Data Structures and Algorithms
 
-[Read Notes](http://akshayavb99.github.io/learning-notes/practice-problems/leetcode-74/)
-
-...
+[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/koko-eating-bananas/)
 
 </details>
+
+### Problem 3: Leetcode 981 - Time Based Key-Value Store
+
+<details markdown="1">
+<summary markdown="span">View Details</summary>
+
+**Area:** Data Structures and Algorithms
+
+[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/time-based-key-value-store/)
+
+</details>
+
+### Problem 4: Implement Mean Squared Error (MSE) from scratch
+
+<details markdown="1">
+<summary markdown="span">View Details</summary>
+
+**Area:** Artificial Intelligence
+
+[Read Notes](https://akshayavb99.github.io/learning-notes/concept-notes/mean-squared-error/#implementing-mse-from-scratch)
+
+</details>
+

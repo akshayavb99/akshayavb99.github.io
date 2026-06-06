@@ -51,3 +51,19 @@ Implementation of file compression tool using the Huffman Coding Algorithm.
 **Highlights:**
 
 * Supports a wide variety of characters due to binary reading mode
+
+### 3. Write your own cut Tool
+
+Implementation of the Unix `cut` command using Python
+
+[GitHub link to my implementation](https://github.com/akshayavb99/coding-challenges-solutions/tree/main/cut-tool) 
+
+**Key Concepts:**
+
+* Built with Python
+* Handles two main options - `-f` to select fields to return and `-d` for the delimiter
+* Command-line interface design
+
+**Highlights:**
+
+* Handles input by reading from file or through standard input `stdin`.

@@ -14,3 +14,33 @@
   paper_url: https://arxiv.org/abs/2603.05706
   notes_url: https://akshayavb99.github.io/learning-notes/paper-summaries/reasoning-models-struggle-to-control-CoT/
   tags: ["chain-of-thought", "reasoning-models", "artificial-intelligence", "large-language-models"]
+- title: "Stress-Testing Model Specs Reveals Character Differences among Language Models"
+  type: research paper
+  author:
+    - Jifan Zhang
+    - Henry Sleight
+    - Andi Peng
+    - John Schulman
+    - Esin Durmus
+  date: 2025-10-09
+  description: >
+    Proposes a systematic methodology for stress-testing AI constitutions
+    and model specifications by generating value tradeoff scenarios where
+    competing principles cannot be simultaneously satisfied. Evaluating
+    twelve frontier language models across more than 300,000 scenarios,
+    the authors identify over 70,000 cases of significant behavioral
+    divergence. High disagreement between models strongly predicts
+    contradictions and ambiguities in model specifications, revealing how
+    differences in behavioral guidelines contribute to distinct model
+    "character" and value prioritization patterns.
+  paper_url: https://arxiv.org/abs/2510.07686
+  notes_url: https://akshayavb99.github.io/learning-notes/paper-summaries/stress-testing-model-specs-reveals-character-diff-among-LMs/
+  tags:
+    - large-language-models
+    - ai-alignment
+    - model-specifications
+    - constitutional-ai
+    - ai-safety
+    - evaluation
+    - behavioral-analysis
+    - value-alignment
