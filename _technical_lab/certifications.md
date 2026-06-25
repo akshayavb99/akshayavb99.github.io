@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Certifications
+permalink: /technical-lab/certifications/
 description: Cloud and machine learning certifications from AWS and other leading providers
 importance: 1
 toc:

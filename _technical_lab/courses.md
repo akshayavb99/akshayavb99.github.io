@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Courses
+permalink: /technical-lab/courses/
 description: Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs
 img: 
 importance: 3

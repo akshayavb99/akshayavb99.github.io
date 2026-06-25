@@ -160,7 +160,9 @@ collections:
     output: false
   projects:
     output: true
-  learning:
+  technical_lab:
+    output: true
+  creative_atelier:
     output: true
 
 

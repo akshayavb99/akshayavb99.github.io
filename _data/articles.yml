@@ -1,19 +1,32 @@
+- title: "Measuring AI Ability to Complete Long Tasks"
+  type: article
+  author:
+    - Thomas Kwa
+    - Ben West
+    - Joel Becker
+  date: 2026-06-13
+  description:
+    - "Why: Recommended as part of the <a href = 'https://www.lesswrong.com/posts/dWQnLi7AoKo3paBXF/the-iliad-intensive-course-materials'>Illiad Intensive Course materials</a> pre-requisites"
+  article_url: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
+  notes_url:
+  tags: ["artificial-intelligence", "large-language-models"]
+
 - title: "How to Read Research Papers: An Interactive Guide to Navigating Scholarly Literature"
   type: article
   author: Dr. Satish Krishnan
   date: 2026-04-24
-  description: >
-    Why: I found this to be a very helpful guide in exploring different methods of reading scientific literature. 
+  description:
+    - "Why: I found this to be a very helpful guide in exploring different methods of reading scientific literature"
   article_url: https://iimk.ac.in/uploads/Reading_Research_Papers.htm
   notes_url:
-  tags: ["Learning", "Reading"]
+  tags: ["learning", "reading"]
 
 - title: "How to Read a Paper"
   type: article
   author: S. Keshav
   date: 2026-04-24
-  description: >
-    Why: This is the original paper from which the three-pass method of reading research papers was defined. 
+  description:
+    - "Why: This is the original paper from which the three-pass method of reading research papers was defined"
   article_url: https://web.stanford.edu/class/cs114/reading-keshav.pdf
   notes_url:
-  tags: ["Learning", "Reading"]
+  tags: ["learning", "reading"]

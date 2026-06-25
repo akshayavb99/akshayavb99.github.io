@@ -1,18 +1,33 @@
 ---
 layout: page
-title: Learning
-permalink: /learning/
+title: Technical Lab
+permalink: /technical-lab/
 description: >
   A page to show what I have been studying. 
   This page is still being built!
 nav: true
-nav_order: 4
+nav_order: 5
+dropdown: true
+children:
+  - title: Overview
+    permalink: /technical-lab/
+  - title: Technical Bookshelf
+    permalink: /technical-lab/bookshelf/
+  - title: Technical Papershelf
+    permalink: /technical-lab/papershelf/
+  - title: divider
+  - title: Courses
+    permalink: /technical-lab/courses/
+  - title: Articles
+    permalink: /technical-lab/articles/
+  - title: Certifications
+    permalink: /technical-lab/certifications/
 horizontal: false
 ---
 
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
 
-## Recent Learning Activity
+## Recent Technical Lab Activity
 
 {% comment %}
   Build array of only existing data sources
@@ -125,8 +140,8 @@ horizontal: false
 
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2">
-        {% assign sorted_learning = site.learning | sort: "importance" %}
-        {% for project in sorted_learning %}
+        {% assign sorted_technical_lab = site.technical_lab | sort: "importance" %}
+        {% for project in sorted_technical_lab %}
           {% include projects_horizontal.liquid %}
         {% endfor %}
       </div>
@@ -134,9 +149,9 @@ horizontal: false
 
   {% else %}
 
-    {% assign sorted_learning = site.learning | sort: "importance" %}
+    {% assign sorted_technical_lab = site.technical_lab | sort: "importance" %}
     <div class="row row-cols-1 row-cols-md-3">
-      {% for project in sorted_learning %}
+      {% for project in sorted_technical_lab %}
         {% include projects.liquid %}
       {% endfor %}
     </div>

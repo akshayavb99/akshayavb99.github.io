@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Papers
+title: Technical Papershelf
+permalink: /technical-lab/papershelf/
 description: A selected list of research papers I found interesting and informative
 img: 
 importance: 5
@@ -23,9 +24,9 @@ toc:
           {{ papers.description }}
         </p>
         {% endif %}
-        {% if papers.papers_url %}
+        {% if papers.paper_url %}
           <p class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-bottom: 0.5rem;">
-              <a href="{{ papers.papers_url }}" target="_blank" rel="noopener noreferrer">Read papers</a>
+              <a href="{{ papers.paper_url }}" target="_blank" rel="noopener noreferrer">Read Paper</a>
           </p>
         {% endif %}
         {% if papers.notes_url %}

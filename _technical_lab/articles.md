@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Articles
+permalink: /technical-lab/articles/
 description: A selected list of blogs and articles I found interesting and informative
 img: 
 importance: 4
@@ -19,9 +20,11 @@ toc:
           {{ article.title }}
         </h3>
         {% if article.description %}
-        <p class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-bottom: 0.5rem; font-style: italic;">
-          {{ article.description }}
-        </p>
+          <ul class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic;">
+            {% for item in article.description %}
+              <li style="margin-bottom: 0.5rem;">{{ item }}</li>
+            {% endfor %}
+          </ul>
         {% endif %}
         {% if article.article_url %}
           <p class="ml-1 ml-md-4" style="font-size: 0.95rem; margin-bottom: 0.5rem;">

@@ -62,8 +62,15 @@
             {% if p.nav and p.autogen == null %}
               {% if p.dropdown %}
                 {% assign has_active_child = false %}
+                {% assign current_url = page.url | remove: 'index.html' %}
                 {% for child in p.children %}
-                  {% if page.title == child.title %}
+                  {% assign child_url = child.permalink | remove: 'index.html' %}
+                  {% if child.permalink %}
+                    {% if child.permalink contains '://' %}
+                      {% assign child_url = "" %}
+                    {% endif %}
+                  {% endif %}
+                  {% if current_url == child_url %}
                     {% assign has_active_child = true %}
                   {% endif %}
                 {% endfor %}
@@ -87,8 +94,15 @@
                       {% if child.title == 'divider' %}
                         <div class="dropdown-divider"></div>
                       {% else %}
+                        {% assign child_url = child.permalink | remove: 'index.html' %}
+                        {% assign child_active = false %}
+                        {% unless child.permalink contains '://' %}
+                          {% if current_url == child_url %}
+                            {% assign child_active = true %}
+                          {% endif %}
+                        {% endunless %}
                         <a
-                          class="dropdown-item {% if page.title == child.title %}active{% endif %}"
+                          class="dropdown-item {% if child_active %}active{% endif %}"
                           href="{% if child.permalink contains '://' %}{{ child.permalink }}{% else %}{{ child.permalink | relative_url }}{% endif %}"
                         >
                           {{- child.title -}}
