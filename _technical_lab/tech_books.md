@@ -77,7 +77,7 @@ toc:
       <div class="technical-book-meta">
         <h3 class="title font-weight-bold">{{ book.title }}</h3>
         {% if book.author %}
-          <p class="technical-book-author">{{ book.author }}</p>
+          <p class="technical-book-author">{{ book.author | join: ", " }}</p>
         {% endif %}
         {% if book.description %}
           <p>{{ book.description }}</p>
