@@ -16,20 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-resume",
-          title: "Resume",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/resume/";
-          },
-        },{id: "nav-learning",
-          title: "Learning",
-          description: "A page to show what I have been studying.  This page is still being built!",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/learning/";
-          },
         },{id: "nav-news",
           title: "News",
           description: "",
@@ -43,6 +29,69 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/blog/";
+          },
+        },{id: "dropdown-overview",
+              title: "Overview",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/";
+              },
+            },{id: "dropdown-technical-bookshelf",
+              title: "Technical Bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/bookshelf/";
+              },
+            },{id: "dropdown-technical-papershelf",
+              title: "Technical Papershelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/papershelf/";
+              },
+            },{id: "dropdown-courses",
+              title: "Courses",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/courses/";
+              },
+            },{id: "dropdown-articles",
+              title: "Articles",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/articles/";
+              },
+            },{id: "dropdown-certifications",
+              title: "Certifications",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/certifications/";
+              },
+            },{id: "dropdown-overview",
+              title: "Overview",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/creative-atelier/";
+              },
+            },{id: "dropdown-creative-bookshelf",
+              title: "Creative Bookshelf",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/creative-atelier/bookshelf/";
+              },
+            },{id: "nav-resume",
+          title: "Resume",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/resume/";
           },
         },{id: "post-between-curiosity-and-consistency-the-first-100-steps-toward-10-000-problems",
         
@@ -88,31 +137,11 @@ ninja.data = [{
             window.open("https://medium.com/@akshayavb99/coding-challenges-1-rebuilding-my-own-wc-tool-with-python-120998981e1d", "_blank");
           
         },
-      },{id: "learning-articles",
-          title: 'Articles',
-          description: "A selected list of blogs and articles I found interesting and informative",
-          section: "Learning",handler: () => {
-              window.location.href = "/learning/articles/";
-            },},{id: "learning-certifications",
-          title: 'Certifications',
-          description: "Cloud and machine learning certifications from AWS and other leading providers",
-          section: "Learning",handler: () => {
-              window.location.href = "/learning/certifications/";
-            },},{id: "learning-courses",
-          title: 'Courses',
-          description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
-          section: "Learning",handler: () => {
-              window.location.href = "/learning/courses/";
-            },},{id: "learning-papers",
-          title: 'Papers',
-          description: "A selected list of research papers I found interesting and informative",
-          section: "Learning",handler: () => {
-              window.location.href = "/learning/papers/";
-            },},{id: "learning-books",
-          title: 'Books',
-          description: "Selected list of technical books and what I learned from them",
-          section: "Learning",handler: () => {
-              window.location.href = "/learning/tech_books/";
+      },{id: "creative_atelier-creative-bookshelf",
+          title: 'Creative Bookshelf',
+          description: "Non-technical books and long-form works I have consumed",
+          section: "Creative_atelier",handler: () => {
+              window.location.href = "/creative-atelier/bookshelf/";
             },},{id: "news-i-am-participating-in-the-stanford-code-in-place-2026-as-a-volunteer-section-leader",
           title: 'I am participating in the Stanford Code in Place 2026 as a volunteer...',
           description: "",
@@ -143,6 +172,31 @@ ninja.data = [{
           description: "A CLI implementation of a fully local RAG enhanced knowledge assistant, built with Ollama running on Docker and Chroma DB vector store",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fully-local-rag-with-cli/";
+            },},{id: "technical_lab-articles",
+          title: 'Articles',
+          description: "A selected list of blogs and articles I found interesting and informative",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/articles/";
+            },},{id: "technical_lab-certifications",
+          title: 'Certifications',
+          description: "Cloud and machine learning certifications from AWS and other leading providers",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/certifications/";
+            },},{id: "technical_lab-courses",
+          title: 'Courses',
+          description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/courses/";
+            },},{id: "technical_lab-technical-papershelf",
+          title: 'Technical Papershelf',
+          description: "A selected list of research papers I found interesting and informative",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/papershelf/";
+            },},{id: "technical_lab-technical-bookshelf",
+          title: 'Technical Bookshelf',
+          description: "Selected list of technical books and what I learned from them",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/bookshelf/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
