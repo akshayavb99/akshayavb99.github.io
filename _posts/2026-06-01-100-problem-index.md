@@ -18,9 +18,9 @@ permalink: /blog/2026/2026-06-01-100-problem-index
 
 *Created: June 01, 2026*
 
-*Last Updated: June 01, 2026*
+*Last Updated: July 03, 2026*
 
-**Progress: 1 / 100**
+**Progress: 16 / 100**
 
 ## Quick Links
 
@@ -30,15 +30,10 @@ permalink: /blog/2026/2026-06-01-100-problem-index
   - [50 Problems](#50-problems)
   - [75 Problems](#75-problems)
   - [100 Problems](#100-problems)
-- [Problems List](#problems-list)
-  - [Problem 1: Leetcode 74 - Search a 2D Matrix](#problem-1-leetcode-74---search-a-2d-matrix)
-  - [Problem 2: Leetcode 875 - Koko Eating Bananas](#problem-2-leetcode-875---koko-eating-bananas)
-  - [Problem 3: Leetcode 981 - Time Based Key-Value Store](#problem-3-leetcode-981---time-based-key-value-store)
-  - [Problem 4: Implement Mean Squared Error (MSE) from scratch](#problem-4-implement-mean-squared-error-mse-from-scratch)
+- [Problems](#problems)
 
 ## Milestones and Retrospectives
-
-
+<br>
 ### 25 Problems
 
 _To be completed_
@@ -58,50 +53,21 @@ _To be completed_
 
 _To be completed_
 
+## Problems
 
-## Problems List
 
-### Problem 1: Leetcode 74 - Search a 2D Matrix
-
-<details markdown="1">
-<summary markdown="span">View Details</summary>
-
-**Area:** Data Structures and Algorithms
-
-[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/search-2d-matrix/)
-
-</details>
-
-### Problem 2: Leetcode 875 - Koko Eating Bananas
-
-<details markdown="1">
-<summary markdown="span">View Details</summary>
-
-**Area:** Data Structures and Algorithms
-
-[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/koko-eating-bananas/)
-
-</details>
-
-### Problem 3: Leetcode 981 - Time Based Key-Value Store
-
-<details markdown="1">
-<summary markdown="span">View Details</summary>
-
-**Area:** Data Structures and Algorithms
-
-[Read Notes](https://akshayavb99.github.io/learning-notes/practice-problems/time-based-key-value-store/)
-
-</details>
-
-### Problem 4: Implement Mean Squared Error (MSE) from scratch
-
-<details markdown="1">
-<summary markdown="span">View Details</summary>
-
-**Area:** Artificial Intelligence
-
-[Read Notes](https://akshayavb99.github.io/learning-notes/concept-notes/mean-squared-error/#implementing-mse-from-scratch)
-
-</details>
-
+| # | Problem / Topic | Area | Notes |
+| :---: | :--- | :--- | :--- |
+| **1** | [Leetcode 74 - Search a 2D Matrix](https://akshayavb99.github.io/learning-notes/practice-problems/search-2d-matrix/) | Data Structures & Algorithms | |
+| **2** | [Leetcode 875 - Koko Eating Bananas](https://akshayavb99.github.io/learning-notes/practice-problems/koko-eating-bananas/) | Data Structures & Algorithms | |
+| **3** | [Leetcode 981 - Time Based Key-Value Store](https://akshayavb99.github.io/learning-notes/practice-problems/time-based-key-value-store/) | Data Structures & Algorithms | |
+| **4** | [Implement Mean Squared Error (MSE) from scratch](https://akshayavb99.github.io/learning-notes/concept-notes/mean-squared-error/#implementing-mse-from-scratch) | Artificial Intelligence | |
+| **5** | [Leetcode 138 - Copy List with Random Pointer](https://akshayavb99.github.io/learning-notes/practice-problems/copy-list-with-random-pointer/) | Data Structures & Algorithms | |
+| **6** | [Leetcode 146 - LRU Cache](https://akshayavb99.github.io/learning-notes/practice-problems/lru_cache/) | Data Structures & Algorithms | |
+| **7** | [Leetcode 543 - Diameter of Binary Tree](https://akshayavb99.github.io/learning-notes/practice-problems/diameter-of-binary-tree/) | Data Structures & Algorithms | |
+| **8** | [Leetcode 110 - Balanced Binary Tree](https://akshayavb99.github.io/learning-notes/practice-problems/balanced-binary-tree/) | Data Structures & Algorithms | |
+| **9** | [Design Bitly](https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly) | System Design | |
+| **10** | [Leetcode 1448 - Count Good Nodes in Binary Tree](https://akshayavb99.github.io/learning-notes/practice-problems/count-good-nodes-in-binary-tree/) | Data Structures & Algorithms | |
+| **11** | [Leetcode 703 - Kth Largest Element in a Stream](https://akshayavb99.github.io/learning-notes/practice-problems/kth-largest-element-in-a-stream/) | Data Structures & Algorithms | |
+| **12** | [Leetcode 215 - Kth Largest Element in an Array](https://akshayavb99.github.io/learning-notes/practice-problems/kth-largest-element-in-an-array/) | Data Structures & Algorithms | |
+| **13-16** | [ARENA (self-study) - 01 Ray Tracing](https://akshayavb99.github.io/learning-notes/practice-problems/arena-ray-tracing/) | Artificial Intelligence | |

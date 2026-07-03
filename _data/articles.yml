@@ -1,3 +1,36 @@
+- title: "Einsum is All you Need - Einstein Summation in Deep Learning"
+  type: article
+  author:
+    - Tim Rocktäschel
+  date: 2026-06-27
+  description: |
+    "Why: A good basic introduction to the significance of Einstein Summation Convention and how to use it with Numpy's einsum"
+  article_url: https://rockt.ai/2018/04/30/einsum
+  notes_url:
+  tags: ["numpy", "pytorch", "python", "artificial-intelligence", "linear-algebra"]
+
+- title: "A basic introduction to NumPy's einsum"
+  type: article
+  author:
+    - ajcr
+  date: 2026-06-27
+  description: |
+    "Why: A good basic introduction to the significance of Einstein Summation Convention and how to use it with Numpy's einsum"
+  article_url: https://ajcr.net/Basic-guide-to-einsum/
+  notes_url:
+  tags: ["numpy", "python", "artificial-intelligence", "linear-algebra"]
+
+- title: "Einstein Summation in Numpy"
+  type: article
+  author:
+    - Olexa Bilaniuk
+  date: 2026-06-27
+  description: |
+    "Why: Very useful in understanding the Einstein Summation conventions, and how it makes tensor operations intuitive to understand and implement in Numpy"
+  article_url: https://obilaniu6266h16.wordpress.com/2016/02/04/einstein-summation-in-numpy/
+  notes_url:
+  tags: ["numpy", "python", "artificial-intelligence", "linear-algebra"]
+
 - title: "Measuring AI Ability to Complete Long Tasks"
   type: article
   author:
@@ -5,8 +38,8 @@
     - Ben West
     - Joel Becker
   date: 2026-06-13
-  description:
-    - "Why: Recommended as part of the <a href = 'https://www.lesswrong.com/posts/dWQnLi7AoKo3paBXF/the-iliad-intensive-course-materials'>Illiad Intensive Course materials</a> pre-requisites"
+  description: |
+    "Why: Recommended as part of the <a href = 'https://www.lesswrong.com/posts/dWQnLi7AoKo3paBXF/the-iliad-intensive-course-materials'>Illiad Intensive Course materials</a> pre-requisites"
   article_url: https://metr.org/blog/2025-03-19-measuring-ai-ability-to-complete-long-tasks/
   notes_url:
   tags: ["artificial-intelligence", "large-language-models"]
@@ -15,8 +48,8 @@
   type: article
   author: Dr. Satish Krishnan
   date: 2026-04-24
-  description:
-    - "Why: I found this to be a very helpful guide in exploring different methods of reading scientific literature"
+  description: |
+    "Why: I found this to be a very helpful guide in exploring different methods of reading scientific literature"
   article_url: https://iimk.ac.in/uploads/Reading_Research_Papers.htm
   notes_url:
   tags: ["learning", "reading"]
@@ -25,8 +58,8 @@
   type: article
   author: S. Keshav
   date: 2026-04-24
-  description:
-    - "Why: This is the original paper from which the three-pass method of reading research papers was defined"
+  description: |
+    "Why: This is the original paper from which the three-pass method of reading research papers was defined"
   article_url: https://web.stanford.edu/class/cs114/reading-keshav.pdf
   notes_url:
   tags: ["learning", "reading"]
