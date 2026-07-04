@@ -62,7 +62,9 @@ That’s why I’m pivoting my focus toward AI Safety and Alignment. I’m takin
 
 <h3 style="font-size:1.5rem;">Topics I’m Exploring</h3>
 
-**The Evaluation Problem:** How do we design robust, foolproof benchmarks to evaluate complex LLMs and autonomous agents before they interact with the real world?
+### Questions I'm Exploring
+
+**The Evaluation Problem:** How can we design hybrid evaluation frameworks for complex LLMs and autonomous agents? Specifically, how do we effectively combine human review with LLM-as-a-judge methods to build scalable, robust benchmarks before these systems interact with the real world?
 
 **The Black Box:** How can we use mechanistic interpretability to look inside neural architectures, understand how features are represented, and audit a model's internal reasoning?
 
