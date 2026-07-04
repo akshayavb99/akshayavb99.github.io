@@ -1,1 +1,15 @@
-[]
+- title: How to Read a Book
+  type: book
+  author: 
+    - Mortimer J. Adler
+    - Charles Van Doren
+  date: 2026-07-01
+  description: |
+    This is a classic guide to how to effectively read different kinds of literary materials ranging from practical books to imaginative works. 
+    It emphasizes the importance of active reading, questioning, and engaging with the text to enhance understanding and retention. 
+    The authors provide a 4-stage reading strategy for analyzing arguments, identifying key concepts, and synthesizing information across various genres.
+  book_url: 
+  cover: https://m.media-amazon.com/images/I/51EG8AyJiQL.jpg
+  notes_url: 
+  status: In Progress
+  tags: [Reading, Critical Thinking, Literature, Non-fiction]

@@ -1,3 +1,34 @@
+- title: "LLMs-as-Judges: A Comprehensive Survey on LLM-based Evaluation Methods"
+  type: research paper
+  author:
+    - Haitao Li
+    - Qian Dong
+    - Junjie Chen
+    - Huixue Su
+    - Yujia Zhou
+    - Qingyao Ai
+    - Ziyi Ye
+    - Yiqun Liu
+  date: 2026-07-04
+  description: >
+    Presents a comprehensive survey of the LLMs-as-judges paradigm, providing
+    a systematic framework to understand how large language models are used as
+    automated evaluators. The authors break down the field across five distinct
+    perspectives: Functionality (why use them), Methodology (how to construct
+    evaluation systems), Applications (where they are deployed), Meta-evaluation
+    (how to test the judges themselves), and Limitations. The paper tracks 
+    current methodologies, implementation constraints like position and 
+    model bias, and maps out future directions for scalable AI evaluation.
+  paper_url: https://arxiv.org/abs/2412.05579
+  notes_url:
+  tags:
+    - large-language-models
+    - llm-as-a-judge
+    - evaluation-frameworks
+    - survey
+    - benchmark
+    - meta-evaluation
+    - model-bias
 - title: "Stress-Testing Model Specs Reveals Character Differences among Language Models"
   type: research paper
   author:
