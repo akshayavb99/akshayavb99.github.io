@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Machine Learning | Data Analytics # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: AI Safety & Alignment | Data Analytics # <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 social: true # includes social icons at the bottom of the page
 profile:
   align: right
@@ -47,11 +47,13 @@ latest_posts:
 --->
 
 
-I am a data analytics professional with a Master of Engineering degree in Electrical Engineering and Computer Sciences from UC Berkeley (2022). I have worked as a data analytics consultant for close to three years, where I focused on designing and defining data models, performing data validation using SQL, and translating complex business requirements into well-structured technical solutions. My work has also included building and experimenting with time series models to identify patterns and support forecasting efforts.
+I’m a data professional and [UC Berkeley](https://www.berkeley.edu/) alum (M.Eng. EECS, 2022) who spent around three years in the weeds of data analytics—turning messy business requirements into clean, functional data models and SQL solutions.
 
-Driven by curiosity for solving complex data challenges, I am now expanding my focus toward machine learning–powered applications. I am exploring predictive modeling, natural language processing, LLMs, agentic AI, and automated decision-making systems, with the goal of building intelligent, scalable solutions. By combining a strong foundation in analytics with modern ML techniques, I aspire to create thoughtfully engineered data-driven solutions that drive measurable business value and scale for the future.
+I love building things, but lately, my curiosity has shifted toward a bigger question: **How do we make sure advanced AI systems are actually safe, predictable, and aligned with human intent?**
 
-<h3 style="font-size:1.5rem;">Tech Skills</h3>
+That’s why I’m pivoting my focus toward AI Safety and Alignment. I’m taking my background in rigorous data validation and systems thinking and applying it to the challenges of interpretability and LLM and agentic AI evaluations. I want to move beyond building models and applications based on them and focus on ensuring those models behave reliably in the real world.
+
+<h3 style="font-size:1.5rem;">My Tech Stack</h3>
 - **Languages:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PyTorch), SQL
 - **Machine Learning & Deep Learning:** Regression, Classification, Ensemble Methods, Clustering, Model Evaluation, EDA, Neural Networks, CNNs, foundational understanding of Transformers & LLM architectures
 - **Applied AI:** Retrieval Augmented Generation (RAG), Embeddings, Vector Similarity Search, Prompt Engineering
@@ -60,5 +62,10 @@ Driven by curiosity for solving complex data challenges, I am now expanding my f
 
 <h3 style="font-size:1.5rem;">Topics I’m Exploring</h3>
 
-- ML System Design
-- Model evaluation and monitoring
+**The Evaluation Problem:** How do we design robust, foolproof benchmarks to evaluate complex LLMs and autonomous agents before they interact with the real world?
+
+**The Black Box:** How can we use mechanistic interpretability to look inside neural architectures, understand how features are represented, and audit a model's internal reasoning?
+
+**Guardrails in Production:** What does scalable, real-time monitoring look like for AI systems? How do we build automated telemetry to catch behavioral anomalies, adversarial attacks, and intent drift in the wild?
+
+**Safety at the Source:** Since data shapes model behavior, how can we leverage rigorous data curation, validation pipelines, and constitutional datasets to bake safety into models from day one?
