@@ -152,6 +152,9 @@ collections:
     output: true
   posts:
     output: true
+  field_log:
+    output: true
+    permalink: /technical-lab/field-log/:year/:title/
   publications:
     output: false
   repositories:
@@ -241,6 +244,11 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
+      path: ""
+      type: field_log
+    values:
+      layout: post
+  - scope:
       path: "assets"
     values:
       sitemap: false
@@ -277,6 +285,10 @@ jekyll-archives:
       category: "/blog/:type/:name/"
   books:
     enabled: [year, tag, category] # enables year, tag and category archives (remove if you need to disable one of them).
+  field_log:
+    enabled: [year]
+    permalinks:
+      year: "/technical-lab/field-log/:year/"
   
 
 # display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog

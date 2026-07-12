@@ -15,6 +15,8 @@ children:
     permalink: /technical-lab/bookshelf/
   - title: Technical Papershelf
     permalink: /technical-lab/papershelf/
+  - title: Field Log
+    permalink: /technical-lab/field-log/
   - title: divider
   - title: Courses
     permalink: /technical-lab/courses/

@@ -1,3 +1,13 @@
+- title: "Harness Engineering for Self-Improvement"
+  type: article
+  author:
+    - Lillian Weng
+  date: 2026-07-08
+  description: |
+    "Why: "
+  article_url: https://lilianweng.github.io/posts/2026-07-04-harness/
+  notes_url:
+  tags: ["artificial-intelligence", "self-improvement", "agentic-ai"]
 - title: "Einsum is All you Need - Einstein Summation in Deep Learning"
   type: article
   author:
