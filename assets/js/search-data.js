@@ -51,19 +51,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/technical-lab/papershelf/";
               },
+            },{id: "dropdown-field-log",
+              title: "Field Log",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/technical-lab/field-log/";
+              },
             },{id: "dropdown-courses",
               title: "Courses",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/technical-lab/courses/";
-              },
-            },{id: "dropdown-articles",
-              title: "Articles",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/technical-lab/articles/";
               },
             },{id: "dropdown-certifications",
               title: "Certifications",
@@ -142,6 +142,11 @@ ninja.data = [{
           description: "Non-technical books and long-form works I have consumed",
           section: "Creative_atelier",handler: () => {
               window.location.href = "/creative-atelier/bookshelf/";
+            },},{id: "field_log-july-2026-field-log",
+          title: 'July 2026 Field Log',
+          description: "Field Log short notes for what I learned in July 2026",
+          section: "Field_log",handler: () => {
+              window.location.href = "/technical-lab/field-log/2026/2026-07/";
             },},{id: "news-i-am-participating-in-the-stanford-code-in-place-2026-as-a-volunteer-section-leader",
           title: 'I am participating in the Stanford Code in Place 2026 as a volunteer...',
           description: "",
@@ -172,11 +177,6 @@ ninja.data = [{
           description: "A CLI implementation of a fully local RAG enhanced knowledge assistant, built with Ollama running on Docker and Chroma DB vector store",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fully-local-rag-with-cli/";
-            },},{id: "technical_lab-articles",
-          title: 'Articles',
-          description: "A selected list of blogs and articles I found interesting and informative",
-          section: "Technical_lab",handler: () => {
-              window.location.href = "/technical-lab/articles/";
             },},{id: "technical_lab-certifications",
           title: 'Certifications',
           description: "Cloud and machine learning certifications from AWS and other leading providers",
@@ -187,9 +187,14 @@ ninja.data = [{
           description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
           section: "Technical_lab",handler: () => {
               window.location.href = "/technical-lab/courses/";
+            },},{id: "technical_lab-field-log",
+          title: 'Field Log',
+          description: "Bite-sized regular updates on what I am doing",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/field-log/";
             },},{id: "technical_lab-technical-papershelf",
           title: 'Technical Papershelf',
-          description: "A selected list of research papers I found interesting and informative",
+          description: "A selected list of research papers, blogs and articles I found interesting and informative",
           section: "Technical_lab",handler: () => {
               window.location.href = "/technical-lab/papershelf/";
             },},{id: "technical_lab-technical-bookshelf",
