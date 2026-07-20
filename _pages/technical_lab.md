@@ -20,8 +20,6 @@ children:
   - title: divider
   - title: Courses
     permalink: /technical-lab/courses/
-  - title: Articles
-    permalink: /technical-lab/articles/
   - title: Certifications
     permalink: /technical-lab/certifications/
 horizontal: false
@@ -46,10 +44,6 @@ horizontal: false
 
 {% if site.data.certifications %}
   {% assign all_items = all_items | concat: site.data.certifications %}
-{% endif %}
-
-{% if site.data.articles %}
-  {% assign all_items = all_items | concat: site.data.articles %}
 {% endif %}
 
 {% if site.data.papers %}
@@ -95,12 +89,17 @@ horizontal: false
             <a href="{{ item.course_url }}" target="_blank" style="margin-right: 10px;">View Course</a>
           {% endif %}
 
-          {% if item.paper_url %}
-            <a href="{{ item.paper_url }}" target="_blank" style="margin-right: 10px;">Read Paper</a>
+          {% assign resource_url = item.blog_url | default: item.article_url | default: item.paper_url %}
+          {% assign resource_type = item.type | downcase %}
+          {% if resource_type == "blog" %}
+            {% assign resource_label = "Read Blog" %}
+          {% elsif resource_type == "paper" or resource_type == "research paper" %}
+            {% assign resource_label = "Read Paper" %}
+          {% else %}
+            {% assign resource_label = "Read Article" %}
           {% endif %}
-
-          {% if item.article_url %}
-            <a href="{{ item.article_url }}" target="_blank" style="margin-right: 10px;">Read Article</a>
+          {% if resource_url %}
+            <a href="{{ resource_url }}" target="_blank" rel="noopener noreferrer" style="margin-right: 10px;">{{ resource_label }}</a>
           {% endif %}
 
           {% if item.certificate_url %}
@@ -132,6 +131,8 @@ horizontal: false
 
 ---
 <br>
+
+{% include field_log_timeline.liquid %}
 
 ## Groups
 

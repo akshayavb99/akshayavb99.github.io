@@ -1,9 +1,21 @@
+- title: Thinking, Fast and Slow
+  type: book
+  author: 
+    - Daniel Kahneman
+  date: 2026-07-19
+  description: 
+  book_url: 
+  cover: https://m.media-amazon.com/images/I/71f6DceqZAL._SY522_.jpg
+  notes_url: 
+  status: In Progress
+  tags: [Psychology, Behavioral Economics, Decision Making, Cognitive Science, Critical Thinking]
+
 - title: How to Read a Book
   type: book
   author: 
     - Mortimer J. Adler
     - Charles Van Doren
-  date: 2026-07-01
+  date: 2026-07-19
   description: |
     This is a classic guide to how to effectively read different kinds of literary materials ranging from practical books to imaginative works. 
     It emphasizes the importance of active reading, questioning, and engaging with the text to enhance understanding and retention. 
@@ -11,5 +23,5 @@
   book_url: 
   cover: https://m.media-amazon.com/images/I/51EG8AyJiQL.jpg
   notes_url: 
-  status: In Progress
+  status: Finished
   tags: [Reading, Critical Thinking, Literature, Non-fiction]

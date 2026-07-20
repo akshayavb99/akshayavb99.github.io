@@ -18,7 +18,7 @@ permalink: /blog/2026/2026-06-01-100-problem-index
 
 *Created: June 01, 2026*
 
-*Last Updated: July 03, 2026*
+*Last Updated: July 16, 2026*
 
 **Progress: 16 / 100**
 
@@ -71,3 +71,8 @@ _To be completed_
 | **11** | [Leetcode 703 - Kth Largest Element in a Stream](https://akshayavb99.github.io/learning-notes/practice-problems/kth-largest-element-in-a-stream/) | Data Structures & Algorithms | |
 | **12** | [Leetcode 215 - Kth Largest Element in an Array](https://akshayavb99.github.io/learning-notes/practice-problems/kth-largest-element-in-an-array/) | Data Structures & Algorithms | |
 | **13-16** | [ARENA (self-study) - 01 Ray Tracing](https://akshayavb99.github.io/learning-notes/practice-problems/arena-ray-tracing/) | Artificial Intelligence | |
+| **17** | [Leetcode 973 - K Closest Points to Origin](https://akshayavb99.github.io/learning-notes/practice-problems/k-closest-points-to-origin/) | Data Structures & Algorithms | |
+| **18** | [Leetcode 22 - Generate Parantheses](https://akshayavb99.github.io/learning-notes/practice-problems/generate-parantheses/) | Data Structures & Algorithms | |
+| **19** | [Leetcode 78 - Subsets](https://akshayavb99.github.io/learning-notes/practice-problems/subsets/) | Data Structures & Algorithms | |
+| **20** | [Leetcode 46 - Permutations](https://akshayavb99.github.io/learning-notes/practice-problems/permutations/) | Data Structures & Algorithms | |
+| **21** | [Leetcode 40 - Combination Sum II](https://akshayavb99.github.io/learning-notes/practice-problems/combination-sum-2/) | Data Structures & Algorithms | |

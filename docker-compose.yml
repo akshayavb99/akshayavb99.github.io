@@ -19,3 +19,4 @@ services:
       - .:/srv/jekyll
     environment:
       - JEKYLL_ENV=development
+      - TZ=Asia/Kolkata
