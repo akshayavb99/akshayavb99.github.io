@@ -142,16 +142,16 @@ ninja.data = [{
           description: "Non-technical books and long-form works I have consumed",
           section: "Creative_atelier",handler: () => {
               window.location.href = "/creative-atelier/bookshelf/";
-            },},{id: "field_log-july-2026-field-log",
-          title: 'July 2026 Field Log',
-          description: "Field Log short notes for what I learned in July 2026",
-          section: "Field_log",handler: () => {
-              window.location.href = "/technical-lab/field-log/2026/2026-07/";
             },},{id: "news-i-am-participating-in-the-stanford-code-in-place-2026-as-a-volunteer-section-leader",
           title: 'I am participating in the Stanford Code in Place 2026 as a volunteer...',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2026-04-21-cip6-sl-participation/";
+            },},{id: "progress_diary-july-2026-field-log",
+          title: 'July 2026 Field Log',
+          description: "Field Log short notes for what I learned in July 2026",
+          section: "Progress_diary",handler: () => {
+              window.location.href = "/technical-lab/progress-diary/2026/2026-07/";
             },},{id: "projects-multi-class-chest-x-ray-disease-classification-using-transfer-learning",
           title: 'Multi-Class Chest X-Ray Disease Classification Using Transfer Learning',
           description: "EfficientNet-based transfer learning model for multi-class classification, which shows improvement over baseline CNN model (Kaggle)",
@@ -187,16 +187,16 @@ ninja.data = [{
           description: "Selected list of courses from my academic journey and online platforms, including lectures and structured learning programs",
           section: "Technical_lab",handler: () => {
               window.location.href = "/technical-lab/courses/";
-            },},{id: "technical_lab-field-log",
-          title: 'Field Log',
-          description: "Bite-sized regular updates on what I am doing",
-          section: "Technical_lab",handler: () => {
-              window.location.href = "/technical-lab/field-log/";
             },},{id: "technical_lab-technical-papershelf",
           title: 'Technical Papershelf',
           description: "A selected list of research papers, blogs and articles I found interesting and informative",
           section: "Technical_lab",handler: () => {
               window.location.href = "/technical-lab/papershelf/";
+            },},{id: "technical_lab-progress-diary",
+          title: 'Progress Diary',
+          description: "Bite-sized regular updates on what I am doing",
+          section: "Technical_lab",handler: () => {
+              window.location.href = "/technical-lab/progress-diary/";
             },},{id: "technical_lab-technical-bookshelf",
           title: 'Technical Bookshelf',
           description: "Selected list of technical books and what I learned from them",
