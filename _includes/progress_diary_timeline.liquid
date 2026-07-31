@@ -1,0 +1,61 @@
+{% assign monthly_progress_diary = site.progress_diary | sort: "date" | reverse %}
+{% assign progress_diary_entry_count = 0 %}
+
+<section class="progress-diary-timeline" aria-labelledby="progress-diary-timeline-title">
+  <h2 id="progress-diary-timeline-title">Progress Diary Timeline</h2>
+
+  <div
+    class="progress-diary-timeline__scroll"
+    role="region"
+    aria-label="Progress diary entries, newest first"
+    tabindex="0"
+  >
+    <ol class="progress-diary-timeline__list">
+      {% for monthly_log in monthly_progress_diary %}
+        {% assign daily_entries = monthly_log.entries | sort: "date" | reverse %}
+        {% for diary_entry in daily_entries %}
+          {% assign progress_diary_entry_count = progress_diary_entry_count | plus: 1 %}
+          {% assign entry_anchor = diary_entry.date | date: "%Y-%m-%d" %}
+          {% assign heading_marker = 'id="' | append: entry_anchor | append: '"' %}
+          <li class="progress-diary-timeline__item">
+            <span class="progress-diary-timeline__marker" aria-hidden="true"></span>
+            <article class="progress-diary-timeline__entry">
+              <header>
+                <time class="progress-diary-timeline__date" datetime="{{ diary_entry.date | date_to_xmlschema }}">
+                  {{ diary_entry.date | date: "%B %-d, %Y" }}
+                </time>
+                <h3 class="progress-diary-timeline__title">
+                  <a href="{{ monthly_log.url | relative_url }}#{{ entry_anchor }}">{{ diary_entry.title }}</a>
+                </h3>
+              </header>
+
+              {% if diary_entry.summary and diary_entry.summary != "" %}
+                <div class="progress-diary-timeline__body">{{ diary_entry.summary | markdownify }}</div>
+              {% endif %}
+
+              {% if monthly_log.content contains heading_marker %}
+                <a
+                  class="progress-diary-timeline__more"
+                  href="{{ monthly_log.url | relative_url }}#{{ entry_anchor }}"
+                  aria-label="Read additional content for {{ diary_entry.title }}"
+                >...</a>
+              {% endif %}
+
+              {% if diary_entry.tags and diary_entry.tags.size > 0 %}
+                <ul class="progress-diary-timeline__tags" aria-label="Tags">
+                  {% for tag in diary_entry.tags %}
+                    <li class="progress-diary-timeline__tag">{{ tag }}</li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </article>
+          </li>
+        {% endfor %}
+      {% endfor %}
+    </ol>
+
+    {% if progress_diary_entry_count == 0 %}
+      <p>No progress diary entries have been published yet.</p>
+    {% endif %}
+  </div>
+</section>

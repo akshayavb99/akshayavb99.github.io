@@ -36,8 +36,18 @@ permalink: /blog/2026/2026-06-01-100-problem-index
 <br>
 ### 25 Problems
 
-_To be completed_
+I hit the 25 problems mark on July 29, 2026. For the first part of the 100 problems challenge, I could immediately see that main issue was being consistent in solving problems every day. 
 
+In the beginning, I would try to solve a problem, keep at it until I got it, even if it took me more than an hour. To avoid spending too much time on one problem and becoming demoralized, I tried various methods like time blocking on my calendar, making to do lists etc, but I was not really able to bring significant changes.
+
+Later, I came across the method of the Captain's log or interstitial journaling. When applying this method, I try to write down the time and the activity I need to be doing, and this helped me keep track of how much time I spent on a question, and when it was a good time to refer to hints instead of trying again and again in the wrong direction fruitlessly.
+
+Among the 25 problems I solved, almost all were Leetcode problems because I found them to be a good way to count the number independent problems I am solving, while still testing my problem solving skills. Over the 25 problems, I can already see an improvement where easy questions don't take as much time now, and I am slowly able to approach Medium level questions with more confidence.
+
+Some points I am looking forward to work on:
+- Find or build a summary sheet of important patterns and how to approach solving the problems.
+- Being able to explain my approach to the problem and the solution I come up with aloud.
+- Use the new Progress Diary section to help my consistency of solving problems every day.
 
 ### 50 Problems
 
@@ -76,3 +86,9 @@ _To be completed_
 | **19** | [Leetcode 78 - Subsets](https://akshayavb99.github.io/learning-notes/practice-problems/subsets/) | Data Structures & Algorithms | |
 | **20** | [Leetcode 46 - Permutations](https://akshayavb99.github.io/learning-notes/practice-problems/permutations/) | Data Structures & Algorithms | |
 | **21** | [Leetcode 40 - Combination Sum II](https://akshayavb99.github.io/learning-notes/practice-problems/combination-sum-2/) | Data Structures & Algorithms | |
+| **22** | [Leetcode 90 - Subsets II](https://akshayavb99.github.io/learning-notes/practice-problems/subsets-ii/) | Data Structures & Algorithms | |
+| **23** | [Leetcode 695 - Max Area of Island](https://akshayavb99.github.io/learning-notes/practice-problems/max-area-of-island/) | Data Structures & Algorithms | |
+| **24** | [Leetcode 133 - Clone Graph](https://akshayavb99.github.io/learning-notes/practice-problems/clone-graph/) | Data Structures & Algorithms | |
+| **25** | [Leetcode 271 - Encode & Decode Strings](https://akshayavb99.github.io/learning-notes/practice-problems/encode-and-decode-strings/) | Data Structures & Algorithms | |
+| **26** | [Leetcode 621 - Task Scheduler](https://akshayavb99.github.io/learning-notes/practice-problems/task-scheduler/) | Data Structures & Algorithms | |
+| **27** | [Leetcode 355 - Design Twitter](https://akshayavb99.github.io/learning-notes/practice-problems/design-twitter-dsa/) | Data Structures & Algorithms | |

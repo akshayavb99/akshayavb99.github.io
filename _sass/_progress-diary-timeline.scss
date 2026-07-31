@@ -1,8 +1,8 @@
-.field-log-timeline {
+.progress-diary-timeline {
   margin-block: 1.5rem;
 }
 
-.field-log-timeline__scroll {
+.progress-diary-timeline__scroll {
   max-height: 36rem;
   overflow-y: auto;
   overscroll-behavior: contain;
@@ -13,19 +13,19 @@
   scrollbar-width: thin;
 }
 
-.field-log-timeline__scroll:focus-visible {
+.progress-diary-timeline__scroll:focus-visible {
   outline: 0.2rem solid var(--global-theme-color);
   outline-offset: 0.2rem;
 }
 
-.field-log-timeline__list {
+.progress-diary-timeline__list {
   position: relative;
   margin: 0;
   padding: 0 0 0 2.25rem;
   list-style: none;
 }
 
-.field-log-timeline__list::before {
+.progress-diary-timeline__list::before {
   position: absolute;
   top: 0.5rem;
   bottom: 0.5rem;
@@ -35,16 +35,16 @@
   background-color: var(--global-divider-color);
 }
 
-.field-log-timeline__item {
+.progress-diary-timeline__item {
   position: relative;
   padding: 0;
 }
 
-.field-log-timeline__item + .field-log-timeline__item {
+.progress-diary-timeline__item + .progress-diary-timeline__item {
   border-top: 1px solid var(--global-divider-color);
 }
 
-.field-log-timeline__marker {
+.progress-diary-timeline__marker {
   position: absolute;
   top: 1.35rem;
   left: -2rem;
@@ -55,59 +55,59 @@
   border-radius: 50%;
 }
 
-.field-log-timeline__entry {
+.progress-diary-timeline__entry {
   padding: 1rem 0;
   background-color: var(--global-bg-color);
 }
 
-.field-log-timeline__date {
+.progress-diary-timeline__date {
   display: block;
   color: var(--global-text-color-light);
   font-size: 0.9rem;
 }
 
-.field-log-timeline__title {
+.progress-diary-timeline__title {
   margin: 0.25rem 0 0.5rem;
   font-size: 1rem;
   font-weight: 700;
 }
 
-.field-log-timeline__body {
+.progress-diary-timeline__body {
   color: var(--global-text-color);
   font-weight: 300;
 }
 
-.field-log-timeline__body p,
-.field-log-timeline__body ul,
-.field-log-timeline__body ol,
-.field-log-timeline__body pre,
-.field-log-timeline__body blockquote {
+.progress-diary-timeline__body p,
+.progress-diary-timeline__body ul,
+.progress-diary-timeline__body ol,
+.progress-diary-timeline__body pre,
+.progress-diary-timeline__body blockquote {
   margin-bottom: 0.75rem;
 }
 
-.field-log-timeline__body a {
+.progress-diary-timeline__body a {
   color: var(--global-theme-color);
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
 
-.field-log-timeline__body a:hover,
-.field-log-timeline__body a:focus-visible {
+.progress-diary-timeline__body a:hover,
+.progress-diary-timeline__body a:focus-visible {
   text-decoration-thickness: 0.12em;
 }
 
-.field-log-timeline__body > :last-child {
+.progress-diary-timeline__body > :last-child {
   margin-bottom: 0;
 }
 
-.field-log-timeline__more {
+.progress-diary-timeline__more {
   display: block;
   margin-top: -0.5rem;
   color: var(--global-text-color-light);
   font-weight: 700;
 }
 
-.field-log-timeline__tags {
+.progress-diary-timeline__tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
@@ -116,25 +116,25 @@
   list-style: none;
 }
 
-.field-log-timeline__tag {
+.progress-diary-timeline__tag {
   color: var(--global-text-color-light);
   font-size: 0.85rem;
 }
 
-.field-log-timeline__tag::before {
+.progress-diary-timeline__tag::before {
   content: "#";
 }
 
 @media (max-width: 575.98px) {
-  .field-log-timeline__scroll {
+  .progress-diary-timeline__scroll {
     padding-right: 0.5rem;
   }
 
-  .field-log-timeline__list {
+  .progress-diary-timeline__list {
     padding-left: 1.75rem;
   }
 
-  .field-log-timeline__marker {
+  .progress-diary-timeline__marker {
     left: -1.5rem;
   }
 }

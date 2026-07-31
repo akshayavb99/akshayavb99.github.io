@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Field Log
-permalink: /technical-lab/field-log/
+title: Progress Diary
+permalink: /technical-lab/progress-diary/
 description: Bite-sized regular updates on what I am doing
 img:
 importance: 6
 pagination:
   enabled: true
-  collection: field_log
+  collection: progress_diary
   permalink: /page/:num/
   per_page: 10
   sort_field: date
@@ -30,16 +30,16 @@ pagination:
 
   <ul class="post-list">
     {% if page.pagination.enabled and paginator.posts %}
-      {% assign monthly_field_logs = paginator.posts %}
+      {% assign monthly_progress_diary = paginator.posts %}
     {% else %}
-      {% assign monthly_field_logs = site.field_log | sort: "date" | reverse %}
+      {% assign monthly_progress_diary = site.progress_diary | sort: "date" | reverse %}
     {% endif %}
 
-    {% assign field_log_entry_count = 0 %}
-    {% for monthly_log in monthly_field_logs %}
+    {% assign progress_diary_entry_count = 0 %}
+    {% for monthly_log in monthly_progress_diary %}
       {% assign daily_entries = monthly_log.entries | sort: "date" | reverse %}
       {% for diary_entry in daily_entries %}
-        {% assign field_log_entry_count = field_log_entry_count | plus: 1 %}
+        {% assign progress_diary_entry_count = progress_diary_entry_count | plus: 1 %}
         {% assign entry_anchor = diary_entry.date | date: "%Y-%m-%d" %}
         {% assign year = diary_entry.date | date: "%Y" %}
         <li>
@@ -68,8 +68,8 @@ pagination:
       {% endfor %}
     {% endfor %}
 
-    {% if field_log_entry_count == 0 %}
-      <li><p>No field log entries have been published yet.</p></li>
+    {% if progress_diary_entry_count == 0 %}
+      <li><p>No progress diary entries have been published yet.</p></li>
     {% endif %}
   </ul>
 

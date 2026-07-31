@@ -152,9 +152,9 @@ collections:
     output: true
   posts:
     output: true
-  field_log:
+  progress_diary:
     output: true
-    permalink: /technical-lab/field-log/:year/:title/
+    permalink: /technical-lab/progress-diary/:year/:title/
   publications:
     output: false
   repositories:
@@ -247,7 +247,7 @@ plugins:
 defaults:
   - scope:
       path: ""
-      type: field_log
+      type: progress_diary
     values:
       layout: post
   - scope:
@@ -287,10 +287,10 @@ jekyll-archives:
       category: "/blog/:type/:name/"
   books:
     enabled: [year, tag, category] # enables year, tag and category archives (remove if you need to disable one of them).
-  field_log:
+  progress_diary:
     enabled: [year]
     permalinks:
-      year: "/technical-lab/field-log/:year/"
+      year: "/technical-lab/progress-diary/:year/"
   
 
 # display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog

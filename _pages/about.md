@@ -51,7 +51,7 @@ I’m a data professional and [UC Berkeley](https://www.berkeley.edu/) alum (M.E
 
 I love building things, but lately, my curiosity has shifted toward a bigger question: **How do we make sure advanced AI systems are actually safe, predictable, and aligned with human intent?**
 
-That’s why I’m pivoting my focus toward AI Safety and Alignment. I’m taking my background in rigorous data validation and systems thinking and applying it to the challenges of interpretability and LLM and agentic AI evaluations. I want to move beyond building models and applications based on them and focus on ensuring those models behave reliably in the real world.
+That’s why I’m pivoting my exploration toward AI Safety and Alignment. I’m taking my background in rigorous data validation and systems thinking and applying it to the challenges of interpretability and LLM and agentic AI evaluations. I want to focus on exploring how models can perform reliably for their intended purpose in the real world.
 
 <h3 style="font-size:1.5rem;">My Tech Stack</h3>
 - **Languages:** Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, PyTorch), SQL
@@ -60,9 +60,8 @@ That’s why I’m pivoting my focus toward AI Safety and Alignment. I’m takin
 - **Data Engineering:** Dimensional Modeling, Data Warehousing Concepts
 - **Tools & Visualization:** Docker, Ollama, Git, Jupyter Notebooks
 
-<h3 style="font-size:1.5rem;">Topics I’m Exploring</h3>
 
-### Questions I'm Exploring
+### Questions I Plan to Explore
 
 **The Evaluation Problem:** How can we design hybrid evaluation frameworks for complex LLMs and autonomous agents? Specifically, how do we effectively combine human review with LLM-as-a-judge methods to build scalable, robust benchmarks before these systems interact with the real world?
 

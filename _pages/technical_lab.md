@@ -132,7 +132,7 @@ horizontal: false
 ---
 <br>
 
-{% include field_log_timeline.liquid %}
+{% include progress_diary_timeline.liquid %}
 
 ## Groups
 
