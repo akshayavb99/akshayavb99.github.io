@@ -1,0 +1,65 @@
+---
+layout: page
+---
+{{ content }}
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign papers = site[page.collection] | sort: 'date' | reverse %}
+  {% assign years = papers | group_by_exp: 'paper', "paper.date | date: '%Y'" %}
+  {% assign groups = 'technical,general' | split: ',' %}
+
+  {% for y in years %}
+    <h1 id="y{{ y.name }}">
+      <a href="{{ y.name | prepend: '/papershelf/' | append: '/' | relative_url }}">{{ y.name }}</a>
+    </h1>
+
+    {% for group in groups %}
+      {% comment %} Anything not marked "technical" falls into General. {% endcomment %}
+      {% if group == 'technical' %}
+        {% assign group_items = y.items | where: 'group', 'technical' %}
+      {% else %}
+        {% assign group_items = y.items | where_exp: 'paper', "paper.group != 'technical'" %}
+      {% endif %}
+
+      {% if group_items.size > 0 %}
+        <h2 style="font-size:1.2rem;font-weight:700;margin:1.5rem 0 .6rem">{{ group | capitalize }}</h2>
+        <ul>
+          {% for paper in group_items %}
+            {% comment %}
+              Notes link: use notes_url if set; otherwise link to this
+              item's own page, but only if you wrote something in its body.
+            {% endcomment %}
+            {% assign notes_link = paper.notes_url %}
+            {% assign body = paper.content | strip %}
+            {% if notes_link == blank and body != '' %}
+              {% assign notes_link = paper.url | relative_url %}
+            {% endif %}
+
+            <li>
+              {{ paper.title }}
+              {% if paper.venue %}<span style="color:var(--global-text-color-light)">— {{ paper.venue }}</span>{% endif %}
+              {% if paper.source_url %} · <a href="{{ paper.source_url }}" target="_blank" rel="noopener">Source</a>{% endif %}
+              {% if notes_link != blank %} · <a href="{{ notes_link }}">Notes</a>{% endif %}
+              {% if paper.tags and paper.tags.size > 0 %}
+                <div class="paper-tags">
+                  {% for tag in paper.tags %}
+                    {% assign tag_url = tag | slugify | prepend: '/papershelf/tag/' | append: '/' | relative_url %}
+                    · <a href="{{ tag_url }}">#{{ tag }}</a>
+                  {% endfor %}
+                </div>
+              {% endif %}
+              {% if paper.categories and paper.categories.size > 0 %}
+                <span class="paper-categories">
+                  {% for category in paper.categories %}
+                    {% assign category_url = category | slugify | prepend: '/papershelf/category/' | append: '/' | relative_url %}
+                    · <a href="{{ category_url }}">{{ category }}</a>
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}

@@ -1,0 +1,65 @@
+---
+layout: page
+---
+{{ content }}
+
+{% if page.collection and page.collection.size > 0 %}
+  {% assign collection = site[page.collection] %}
+  {% if collection and collection.size > 0 %}
+    {% assign items = collection | reverse %}
+    {% assign years = items | group_by_exp: 'item', "item.started | date: '%Y'" %}
+    {% assign groups = 'technical,general' | split: ',' %}
+
+    {% for y in years %}
+      <h1 id="y{{ y.name }}">
+        <a href="{{ y.name | prepend: '/bookshelf/' | append: '/' | relative_url }}">{{ y.name }}</a>
+      </h1>
+
+      {% for group in groups %}
+        {% comment %} Anything not marked "technical" falls into General. {% endcomment %}
+        {% if group == 'technical' %}
+          {% assign group_items = y.items | where: 'group', 'technical' %}
+          {% assign dot_color = '#7F77DD' %}
+        {% else %}
+          {% assign group_items = y.items | where_exp: 'item', "item.group != 'technical'" %}
+          {% assign dot_color = '#D4537E' %}
+        {% endif %}
+
+        {% if group_items.size > 0 %}
+          <h2 style="display:flex;align-items:center;gap:.5rem;font-size:1rem;font-weight:500;margin:1.25rem 0 .75rem">
+            <span style="width:.6rem;height:.6rem;border-radius:50%;background:{{ dot_color }}"></span>
+            {{ group | capitalize }}
+            <span style="font-size:.8rem;font-weight:400;color:var(--global-text-color-light)">{{ group_items.size }}</span>
+            <span style="flex:1;height:1px;background:var(--global-divider-color)"></span>
+          </h2>
+          <ul>
+            {% for item in group_items %}
+              <figure class="cover">
+                <a class="cover-link" href="{{ item.url | relative_url }}">
+                  {% if item.cover %}
+                    <img alt="{{ item.title }} cover" src="{{ item.cover | prepend: page.covers | relative_url }}" style="height:200px">
+                  {% elsif item.olid %}
+                    <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/olid/{{ item.olid }}-L.jpg?default=false" style="height:200px">
+                  {% elsif item.isbn %}
+                    <img alt="{{ item.title }} cover" src="https://covers.openlibrary.org/b/isbn/{{ item.isbn }}-L.jpg?default=false" style="height:200px">
+                  {% endif %}
+                  {% if item.status %}
+                    {% assign statuses = 'abandoned,finished,interested,paused,queued,reading,reread' | split: ',' %}
+                    {% assign status = item.status | downcase | strip %}
+                    {% if statuses contains status %}
+                      <figcaption class="{{ status | downcase }}">{{ status | upcase }}</figcaption>
+                    {% else %}
+                      <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                    {% endif %}
+                  {% else %}
+                    <figcaption class="uncategorized">UNCATEGORIZED</figcaption>
+                  {% endif %}
+                </a>
+              </figure>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
