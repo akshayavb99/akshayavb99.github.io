@@ -3,7 +3,7 @@ layout: page
 title: Data Science Fundamentals
 date: 2024-02-05
 toc:
-    sidebar: left
+  sidebar: left
 ---
 
 ## Topics covered

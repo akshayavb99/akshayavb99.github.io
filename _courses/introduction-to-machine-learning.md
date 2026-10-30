@@ -3,7 +3,7 @@ layout: page
 title: Introduction to Machine Learning
 date: 2023-09-05
 toc:
-    sidebar: left
+  sidebar: left
 ---
 
 ## Topics covered

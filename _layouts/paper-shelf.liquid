@@ -37,9 +37,15 @@ layout: page
 
             <li>
               {{ paper.title }}
-              {% if paper.venue %}<span style="color:var(--global-text-color-light)">— {{ paper.venue }}</span>{% endif %}
-              {% if paper.source_url %} · <a href="{{ paper.source_url }}" target="_blank" rel="noopener">Source</a>{% endif %}
-              {% if notes_link != blank %} · <a href="{{ notes_link }}">Notes</a>{% endif %}
+              {% if paper.venue -%}
+                <span style="color:var(--global-text-color-light)">— {{ paper.venue }}</span>
+              {%- endif %}
+              {% if paper.source_url %}
+                · <a href="{{ paper.source_url }}" target="_blank" rel="noopener">Source</a>
+              {%- endif %}
+              {% if notes_link != blank %}
+                · <a href="{{ notes_link }}">Notes</a>
+              {%- endif %}
               {% if paper.tags and paper.tags.size > 0 %}
                 <div class="paper-tags">
                   {% for tag in paper.tags %}

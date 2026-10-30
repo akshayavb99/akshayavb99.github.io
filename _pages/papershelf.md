@@ -5,7 +5,5 @@ permalink: /papershelf/
 nav: false
 collection: papershelf
 toc:
-    sidebar: left
+  sidebar: left
 ---
-
-
